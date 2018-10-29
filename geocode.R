@@ -16,7 +16,7 @@ library(rgdal)
 library(spdplyr)
 
 # Add Google Geocode API key (may want to register your own so I don't run out of free credit)
-register_google(key = "AIzaSyCekezqonJkuQFGrzydFGalw-H8lo3MAMM", account_type = "premium")
+register_google(key = "YOUR GOOGLE KEY", account_type = "premium")
 
 #load csv with locations you want coded (change "folder" to the folder you are working from which contains shapefiles + csv)
 setwd("folder")
